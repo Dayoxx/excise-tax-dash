@@ -1,0 +1,51 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F5F5F5;
+}
+
+.chart-container {
+    position: relative;
+    margin: auto;
+    height: 320px;
+    width: 100%;
+}
+
+.kpi-value {
+    font-weight: 900;
+    color: #004AAD;
+}
+
+.kpi-label {
+    font-weight: 600;
+    color: #0079FF;
+}
+
+.timeline-item {
+    position: relative;
+    padding-bottom: 2rem;
+    padding-left: 2.5rem;
+}
+
+.timeline-item:last-child {
+    padding-bottom: 0;
+}
+
+.timeline-marker {
+    position: absolute;
+    left: 0;
+    top: 0.25rem;
+    height: 1.25rem;
+    width: 1.25rem;
+    background-color: #52A5FF;
+    border-radius: 9999px;
+    border: 3px solid #BDEFFF;
+}
+
+.timeline-line {
+    position: absolute;
+    left: 0.5rem;
+    top: 0.25rem;
+    bottom: -0.25rem;
+    width: 2px;
+    background-color: #BDEFFF;
+}
